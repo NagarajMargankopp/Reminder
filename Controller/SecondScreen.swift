@@ -38,7 +38,7 @@ class SecondScreen: UIViewController {
     
     @IBAction func saveB(_ sender: Any) {
         let title = titleL.text ?? ""
-    
+    print(title)
         if title.isEmpty  {
             print("enter title")
             ShowAlert()
